@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins,sans-serif;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/22/15/29/blue-1273089_1280.jpg');
+    background-size: 100%;
+}
+form{
+    background-color: #fff;
+    border-radius: 1.5rem;
+    background-color: none;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+form label{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.form-container{
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.head-form h1{
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+.head-form p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.user-data .campo{
+    display: flex;
+    flex-direction: column;
+}
+.campo{
+    position: relative;
+}
+.user-data span{
+    position: absolute;
+    top: 2.8rem;
+}
+
+.user-data input{
+    border-radius: .2rem;
+    margin-top: 4px;
+    border: none;
+    border-bottom: solid #000 1px;
+    padding: 5px 0 0 30px;
+}
+
+.user-data label{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.factura-section{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.genero-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.genero-section label{
+    color: rgb(27, 27, 27);
+    font-size: 1rem;
+}
+
+#header{
+    font-weight: 600;
+}
+.genero-section input[type="radio"]{
+    margin-right: 0.2rem;
+}
+
+.factura-section input[type="checkbox"]{
+    margin-right: .2rem;
+}
+
+.factura-section label{
+    font-size: 1rem;
+}
+.envio-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.envio-container label{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.envio-container select{
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    font-size: 20px;
+    color: #fff;
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(0, 0, 0);
+    padding: 0.5px 90px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+/*Estilos de recibe.php*/
+
+header{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+main{
+    padding: 2rem;
+    width: 400px;
+    border: solid black 1px;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.parametros{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.parametros input{
+    width: 200px;
+}
+.preferencias{
+    margin-top: 1rem;
+}

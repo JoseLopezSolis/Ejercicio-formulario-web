@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="form-container">
+        <div class="cotainer">
+            <form action="./recibe.php" method="GET">
+                <div class="head-form">
+                    <h1>Formulario</h1>
+                    <p>Rellena el siguiente formulario</p>
+                </div>
+    
+                <div class="user-data">
+                    <div class="campo">
+                        <label for="">Nombre</label>
+                        <span class="material-symbols-sharp">person</span>
+                        <input type="text" name="username" placeholder="Ingres tu nombre">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="">Direccion</label>
+                        <span class="material-symbols-sharp">location_on</span>
+                        <input type="text" name="address" placeholder="Ingresa tu direccion">
+                    </div>
+            
+                    <div class="campo">
+                        <label for="">Email</label>
+                        <span class="material-symbols-sharp">mail</span>
+                        <input type="email" name="email" placeholder="Ingresa tu email">
+                    </div>
+                </div>
+
+                <div class="genero-section">
+                    <label id="header">Selecciona tu genero:</label>
+                    <label>
+                        <input type="radio" name="genero" value="Masculino">Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="Femenino">Femenino
+                    </label>
+                </div>
+    
+                <div class="factura-section">
+                    <label for="">
+                        <input type="checkbox" value="Si" name="factura"> Decea recibir factura 
+                    </label>
+                </div>
+    
+                <div class="envio-container">
+                    <label for="" id="header">Como quiere recibir el envio:</label>
+                    <select name="envio">
+                        <option value="Normal">Normal</option>
+                        <option value="Por avion">Por avion</option>
+                        <option value="Urgente">Urgente</option>
+                    </select>
+                </div>
+
+        
+                <div class="button-container">
+                    <button class="button-64" type="submit" name="result"><span>Enviar</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
